@@ -1,41 +1,71 @@
-<table>
+<!DOCTYPE html>
+<html lang="en">
 
-    <thead>
-        <tr>
-            <th>Type</th>
-            <th>Output</th>
-        </tr>
-    </thead>
-    
-    <tbody>
-    
-        <tr>
-            <td class="title">German Text</td>
-            <td id="german-text"></td>
-        </tr>
-    
-        <tr>
-            <td class="title">Hochdeutsch Ground Truth</td>
-            <td class="audio-cell">
-                <audio id="ground-truth-audio" controls></audio>
-            </td>
-        </tr>
-    
-        <tr>
-            <td class="title">Baseline Schwäbisch Model Output</td>
-            <td class="audio-cell">
-                <audio id="baseline-audio" controls></audio>
-            </td>
-        </tr>
-    
-        <tr>
-            <td class="title">Our Schwäbisch Model Output</td>
-            <td class="audio-cell">
-                <audio id="our-audio" controls></audio>
-            </td>
-        </tr>
-    
-    </tbody>
-    
-    </table>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Schwäbisch TTS Demo</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Schwäbisch TTS Demo</h1>
+
+        <p>
+            Comparison between Hochdeutsch ground truth, baseline Schwäbisch synthesis,
+            and our proposed Schwäbisch TTS model.
+        </p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Output</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td class="title">German Text</td>
+                    <td id="german-text"></td>
+                </tr>
+
+                <tr>
+                    <td class="title">Hochdeutsch Ground Truth</td>
+                    <td class="audio-cell">
+                        <audio id="ground-truth-audio" controls></audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="title">Baseline Schwäbisch Model Output</td>
+                    <td class="audio-cell">
+                        <audio id="baseline-audio" controls></audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="title">Our Schwäbisch Model Output</td>
+                    <td class="audio-cell">
+                        <audio id="our-audio" controls></audio>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</body>
+
+</html>
