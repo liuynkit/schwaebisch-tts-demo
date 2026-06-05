@@ -1,20 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
-    line-height: 1.6;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 1rem;
-    color: #444;
+    margin-bottom: 20px;
 }
 
 table {
@@ -22,22 +21,28 @@ table {
     border-collapse: collapse;
 }
 
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
 th {
-    font-size: 1.5rem;
     text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 td {
     font-size: 1rem;
-    padding: 16px;
     vertical-align: middle;
 }
 
 .title {
     font-weight: 600;
-    width: 30%;
+    width: 35%;
 }
 
 audio {
-    width: 420px;
+    width: 350px;
 }
