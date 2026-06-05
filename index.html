@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schwäbisch Model Comparison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+```
+<h1>Schwäbisch Model Comparison</h1>
+
+<table id="comparison-table">
+    <tbody>
+
+        <tr>
+            <td class="title">German Text</td>
+            <td id="german-text"></td>
+        </tr>
+
+        <tr>
+            <td class="title">Hochdeutsch Ground Truth</td>
+            <td>
+                <audio id="ground-truth-audio" controls>
+                    Your browser does not support audio playback.
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="title">Baseline Schwäbisch Model Output</td>
+            <td>
+                <audio id="baseline-audio" controls>
+                    Your browser does not support audio playback.
+                </audio>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="title">Our Schwäbisch Model Output</td>
+            <td>
+                <audio id="our-audio" controls>
+                    Your browser does not support audio playback.
+                </audio>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
